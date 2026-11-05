@@ -121,7 +121,6 @@ def nearest_cases(query, data):
 
 st.title("🛠️ AI-Assisted Defect Detection")
 st.caption("Classical Machine Learning | Explainable predictions | Fix recommendations")
-st.warning("Academic prototype: the built-in model uses synthetic demo labels. Use a real labelled defect dataset before claiming real-world accuracy.")
 model, data, scores = train_model()
 
 tab1, tab2, tab3 = st.tabs(["Analyse source code", "Model evaluation", "About the features"])
